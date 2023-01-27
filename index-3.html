@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- BEGIN HEAD -->
+   
+<!-- Mirrored from kitchen.qtcmedia.com/html/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Jan 2023 10:06:45 GMT -->
+<head>
+      <meta charset="UTF-8">
+      <title>Kitchen Design - HTML Template</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <meta content="" name="description" />
+      <meta content="" name="author" />
+      <!-- BEGIN GLOBAL MANDATORY STYLES -->
+      <link href="plugins/normalize.css" rel="stylesheet" type="text/css">
+      <link href="plugins/uikit/css/uikit.min.css" rel="stylesheet" type="text/css">
+      <!-- END GLOBAL MANDATORY STYLES -->
+      <!-- BEGIN PAGE COMPONENTS UIKIT -->
+      <link href="plugins/uikit/css/components/slidenav.min.css" rel="stylesheet" type="text/css">
+      <link href="plugins/uikit/css/components/slideshow.min.css" rel="stylesheet" type="text/css">
+      <link href="plugins/uikit/css/components/dotnav.min.css" rel="stylesheet" type="text/css">
+      <link href="plugins/uikit/css/components/slider.min.css" rel="stylesheet" type="text/css">
+      <!-- END PAGE COMPONENTS UIKIT -->
+      <!-- BEGIN PAGE LEVEL PLUGINS -->
+      <link rel="stylesheet" href="plugins/animate.min.css" type="text/css">
+      <link rel="stylesheet" href="plugins/revolution/css/settings.css" type="text/css">
+      <link rel="stylesheet" href="plugins/revolution/css/layers.css" type="text/css">
+      <link rel="stylesheet" href="plugins/revolution/css/navigation.css" type="text/css">
+      <!-- END PAGE LEVEL PLUGINS -->
+      <!-- BEGIN THEME LAYOUT STYLES -->
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <link rel="stylesheet" href="css/responsive.css" type="text/css">
+      <!-- END BEGIN THEME LAYOUT STYLES -->
+      <link rel="shortcut icon" href="images/favicon.ico" />
+   </head>
+   <!-- END HEAD -->
+   <body>
+      <!-- BEGIN HEADER -->
+      <header class="home-two">
+         <div class="sticky" data-uk-sticky="{top:100, animation: 'uk-animation-slide-top'}">
+            <div class="kc-container-full uk-container-center">
+               <div class="logo uk-navbar-nav uk-flex uk-flex-middle">
+                  <a href="index-2.html">
+                     <img src="images/logo.png" alt=""/>
+                  </a>
+               </div>
+               <div class="uk-navbar-flip">
+                  <ul class="uk-navbar-nav uk-flex uk-flex-middle">
+                     <li data-uk-dropdown="{remaintime:'0'}">
+                        <a href="#" class="search" ><span class="icon uk-icon-search"></span></a>
+                        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+                           <form class="uk-form" action="#" method="GET">
+                              <div class="uk-form-icon uk-form-icon-flip">
+                                 <i class="uk-icon-search"></i>
+                                 <input type="text" class="uk-form-large uk-width-1-1" placeholder="Search...">
+                              </div>
+                           </form>
+                        </div>
+                     </li>
+                     <li class="hidden-smartphone" data-uk-dropdown="{remaintime:'0'}">
+                        <a href="#" class="cart"><span class="icon uk-icon-shopping-cart"></span><span class="number">2</span></a>
+                        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom uk-dropdown-cart">
+                           <div class="cart-block-content">
+                              <h5 class="cart-title">2 Items in my cart</h5>
+                              <div class="cart-block-list">
+                                 <ul>
+                                    <li class="product-info">
+                                       <div class="product-left">
+                                          <a href="#" class="uk-icon-times"></a>
+                                          <a href="#">
+                                             <img class="img-responsive" src="images/recent-product-1.jpg" alt="">
+                                          </a>
+                                       </div>
+                                       <div class="product-right">
+                                          <p class="name">Donec Ac Tempus</p>
+                                          <p class="price">50,50 €</p>
+                                          <p>Qty: 1</p>
+                                       </div>
+                                    </li>
+                                    <li class="product-info">
+                                       <div class="product-left">
+                                          <a href="#" class="uk-icon-times"></a>
+                                          <a href="#">
+                                             <img class="img-responsive" src="images/recent-product-2.jpg" alt="">
+                                          </a>
+                                       </div>
+                                       <div class="product-right">
+                                          <p class="name">Donec Ac Tempus</p>
+                                          <p class="price">50,50 €</p>
+                                          <p>Qty: 1</p>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="toal-cart">
+                                 <span>Total:</span>
+                                 <span class="toal-price uk-float-right">101.00 €</span>
+                              </div>
+                              <div class="cart-buttons">
+                                 <div class="uk-grid">
+                                    <div class="uk-width-1-2">
+                                       <a href="shopping-cart.html" class="kc-button-cart kc-button kc-button-primary kc-button-text-white">Cart</a>
+                                    </div>
+                                    <div class="uk-width-1-2 uk-float-right">
+                                       <a href="check-out.html" class="kc-button-checkout kc-button kc-button-primary kc-button-text-white">Checkout</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="hidden-laptop">
+                        <a href="shopping-cart.html" class="cart"><span class="icon uk-icon-shopping-cart"></span><span class="number">2</span></a>
+                     </li>
+                     <li>
+                        <a href="#" id="menu_primary_show"><span class="icon uk-icon-bars"></span></a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="uk-clearfix"></div>
+            </div>
+         </div>
+      </header>
+      <div class="overlay-menu"></div>
+      <div id="menu_primary" class="menu-toggle">
+         <div class="uk-panel">
+            <div class="logo">
+               <a href="index-2.html"><img src="images/logo-home-1.png" alt=""></a>
+               <a href="#" id="hide_menus"><span class="uk-icon-close"></span></a>
+            </div>
+            <nav class="nav-holder">
+               <ul class="nav">
+                  <li class="has-submenu">
+                     <a href="index-2.html">HOME </a>
+                     <ul class="submenu">
+                        <li><a href="index-2.html">HOME ONE</a></li>
+                        <li><a href="index-3.html">HOME TWO</a></li>
+                     </ul>
+                  </li>
+                  <li class="has-submenu">
+                     <a href="design.html">DESIGNS</a>
+                     <ul class="submenu">
+                        <li><a href="design-detail.html">DESIGN DETAIL</a></li>
+                        <li><a href="book-design.html">BOOK DESIGN</a></li>
+                     </ul>
+                  </li>
+                  <li class="has-submenu">
+                     <a href="product-list.html">PRODUCTS</a>
+                     <ul class="submenu">
+                        <li><a href="product-list.html">PRODUCTS LIST</a></li>
+                        <li><a href="product-grid.html">PRODUCTS GRID</a></li>
+                        <li><a href="product-filter.html">PRODUCTS FILTER</a></li>
+                        <li><a href="product-detail.html">PRODUCTS DETAIL</a></li>
+                        <li><a href="shopping-cart.html">SHOPPING CART</a></li>
+                     </ul>
+                  </li>
+                  <li class="has-submenu">
+                     <a href="gallery-grid.html">GALLERY</a>
+                     <ul class="submenu">
+                        <li><a href="gallery-grid.html">GALLERY GRID</a></li>
+                        <li><a href="gallery-masonry.html">GALLERY MASONRY</a></li>
+                        <li><a href="gallery-full-width.html">GALLERY FULL WIDTH</a></li>
+                        <li><a href="check-out.html">CHECK OUT</a></li>
+                     </ul>
+                  </li>
+                  <li class="has-submenu">
+                     <a href="blog-list.html">BLOG</a>
+                     <ul class="submenu">
+                        <li><a href="blog-list.html">BLOG LIST</a></li>
+                        <li><a href="blog-grid.html">BLOG GRID</a></li>
+                        <li><a href="blog-detail.html">BLOG DETAIL</a></li>
+                        <li><a href="coming-soon.html">COMING SOON</a></li>
+                        <li><a href="404-page.html">404</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <!--END BEGIN HEADER -->
+      <!-- BEGIN CONTAINER -->
+      <!-- BEGIN BLOCK SLIDER SHOW -->
+      <section class="slider">
+         <div id="slider2" class="rev_slider"  data-version="5.0">
+            <ul>
+               <li data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" >
+                  <img src="images/slider-2-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina/>
+                  <div class="tp-caption tp-resizeme banner-caption-h1 text-center"
+                       data-x="center" data-hoffset="0"
+                       data-y="center" data-voffset="-82"
+                       data-width="none"
+                       data-height="none"
+                       data-whitespace="nowrap"
+                       data-transform_idle="o:1;"
+                       data-transform_in="x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+                       data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                       data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                       data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                       data-start="1000"
+                       data-splitin="none"
+                       data-splitout="none"
+                       data-elementdelay="0.1"
+                       data-responsive_offset="on">
+                     WE MAKE <span class="kc-color-primary"> YOU </span>HAPPY
+                  </div>
+                  <div class="tp-caption small_light_white tp-resizeme banner-caption-p text-center"
+                       data-x="center" data-hoffset="0"
+                       data-y="center" data-voffset="-10"
+                       data-whitespace="nowrap"
+                       data-transform_idle="o:1;"
+                       data-style_hover="cursor:default;"
+
+                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+                       data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                       data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                       data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                       data-start="2500"
+                       data-splitin="none"
+                       data-splitout="none"
+                       data-responsive_offset="on">
+                     design is our way of life - making spaces beautiful
+                  </div>
+                  <div class="tp-caption small_light_white tp-resizeme banner-caption-p text-center"
+                       data-x="center" data-hoffset="0"
+                       data-y="center" data-voffset="76"
+                       data-whitespace="nowrap"
+                       data-transform_idle="o:1;"
+                       data-style_hover="cursor:default;"
+
+                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+                       data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                       data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                       data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                       data-start="2500"
+                       data-splitin="none"
+                       data-splitout="none"
+                       data-responsive_offset="on">
+                     <a href="#" class="kc-button kc-button-primary">GET STARTED</a>
+                     <a href="#" class="kc-button kc-button-default">LEARN MORE</a>
+                  </div>
+               </li>
+               <li data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-description="">
+                  <img src="images/slider-2-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                  <div class="tp-caption sfl tp-resizeme banner-caption-h1 "
+                       data-x="center" data-hoffset="0"
+                       data-y="center" data-voffset="-82"
+                       data-transform_idle="o:1;"
+                       data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                       data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                       data-start="1000"
+                       data-splitin="none"
+                       data-splitout="none" >
+                     CLEARANCE <span class="kc-color-primary"> SALE! </span>
+                  </div>
+                  <div class="tp-caption  tp-resizeme banner-caption-p text-center "
+                       data-x="center" data-hoffset="0"
+                       data-y="center" data-voffset="-10"
+                       data-whitespace="nowrap"
+                       data-transform_idle="o:1;"
+
+                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                       data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                       data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                       data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                       data-start="2000"
+                       data-splitin="none"
+                       data-splitout="none"
+                       data-responsive_offset="on">
+                     design is our way of life - making spaces beautiful
+                  </div>
+                  <div class="tp-caption small_light_white tp-resizeme banner-caption-p text-center"
+                       data-x="center" data-hoffset="0"
+                       data-y="center" data-voffset="76"
+                       data-whitespace="nowrap"
+                       data-transform_idle="o:1;"
+                       data-style_hover="cursor:default;"
+
+                       data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+                       data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                       data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                       data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                       data-start="2500"
+                       data-splitin="none"
+                       data-splitout="none"
+                       data-responsive_offset="on">
+                     <a href="#" class="kc-button kc-button-primary">GET STARTED</a>
+                     <a href="#" class="kc-button kc-button-default">LEARN MORE</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK SLIDER SHOW -->
+      <!-- BEGIN BLOCK SEARCH DESIGN -->
+      <section class="search-design">
+         <div class="uk-grid uk-grid-collapse">
+            <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+               <div class="box">
+                  <div class="box-title">
+                     <h3>search your design</h3>
+                     <span class="step">01</span>
+                  </div>
+                  <div class="box-content">
+                     <p>Proin varius nisi sed consectetur pellentesque. Suspendisse volutpat felis in lacus pharetra ultrices. Vestibulum sit amet lobortis tellus. Quisque sed urna sed nisl bibendum efficitur.</p>
+                     <span class="dot"></span>
+                  </div>
+               </div>
+            </div>
+            <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+               <div class="box active">
+                  <div class="box-title">
+                     <h3>book your design</h3>
+                     <span class="step">02</span>
+                  </div>
+                  <div class="box-content">
+                     <p>Proin varius nisi sed consectetur pellentesque. Suspendisse volutpat felis in lacus pharetra ultrices. Vestibulum sit amet lobortis tellus. Quisque sed urna sed nisl bibendum efficitur.</p>
+                     <span class="dot"></span>
+                  </div>
+               </div>
+            </div>
+            <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+               <div class="box last">
+                  <div class="box-title">
+                     <h3>we make your design</h3>
+                     <span class="step">03</span>
+                  </div>
+                  <div class="box-content">
+                     <p>Proin varius nisi sed consectetur pellentesque. Suspendisse volutpat felis in lacus pharetra ultrices. Vestibulum sit amet lobortis tellus. Quisque sed urna sed nisl bibendum efficitur.</p>
+                     <span class="dot"></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK SEARCH DESIGN -->
+      <!-- BEGIN BLOCK ABOUT -->
+      <section class="about sec-padding">
+         <div class="uk-container uk-container-center">
+            <div class="uk-grid">
+               <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-width-1-1">
+                  <div class="uk-overlay">
+                     <img src="images/video-2-1.jpg" alt=""/>
+                     <div class="uk-overlay-panel uk-flex uk-flex-middle uk-flex-center">
+                        <div class="video-play">
+                           <a href="#"><span class="icon uk-icon-play"></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-width-1-1">
+                  <div class="box-content">
+                     <h3>about kitchen design</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id elementum Quisque sed urna sed nisl bibendum efficitur. Suspendisse a rhoncus risus. Vivamus tempus, quam vehicula tristique faucibus, lorem tellus egestas turpis, vitae bibendum ante orci a eros. Etiam quis aliquet odio, vel eleifend sem.</p>
+                     <ul>
+                        <li>Etiam accumsan, risus mollis volutpat consectetur</li>
+                        <li>Mauris augue mollis velit, eget lobortis purus massa placerat</li>
+                        <li>Pellentesque habitant morbi tristique senectus et</li>
+                        <li>Netus et malesuada fames ac turpis egestas</li>
+                     </ul>
+                     <div class="kc-button-left">
+                        <a href="#" class="kc-button kc-button-default">GET STARTED</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK ABOUT -->
+      <!-- BEGIN BLOCK FEATURED -->
+      <section class="featured sec-padding sec-background">
+         <div class="uk-container uk-container-center sec-title  animation-scroll scroll-zoomindown">
+            <h3>featured projects</h3>
+            <p>Donec vitae turpis volutpat, eleifend dolor vitae, consectetur erat vestibulum dignissim mollis mauris. </p>
+            <div class="border-img"></div>
+         </div>
+         <div class="uk-slidenav-position" data-uk-slider="{center: true}">
+            <div class="uk-slider-container">
+               <ul class="uk-slider uk-grid uk-grid-small uk-grid-width-medium-1-5 uk-grid-width-small-1-3 uk-grid-width-1-1">
+                  <li><img src="images/featured-2-1.jpg" alt=""/></li>
+                  <li><img src="images/featured-2-2.jpg" alt=""/></li>
+                  <li class="uk-active"><img src="images/featured-2-3.jpg" alt=""/></li>
+                  <li><img src="images/featured-2-4.jpg" alt=""/></li>
+                  <li><img src="images/featured-2-5.jpg" alt=""/></li>
+               </ul>
+            </div>
+            <div class="uk-container uk-container-center">
+               <div class="slider-content">
+                  <div class="uk-text-center">
+                     <h3>SMALL KITCHEN DESIGN</h3>
+                     <h5>Idea Creative</h5>
+                  </div>
+                  <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+                  <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK FEATURED -->
+      <!-- BEGIN BLOCK OUR SERVICES -->
+      <section class="our-service sec-padding">
+         <div class="uk-container uk-container-center">
+            <div class="sec-title">
+               <h3>OUR SERVICES</h3>
+               <p>Donec vitae turpis volutpat, eleifend dolor vitae, consectetur erat vestibulum dignissim mollis mauris. </p>
+               <div class="border-img"></div>
+            </div>
+            <div class="uk-grid">
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="box-service">
+                     <div class="box-icon">
+                        <span class="icon uk-icon-pencil"></span>
+                     </div>
+                     <div class="box-content">
+                        <h4>DESIGN & DRAWINGS</h4>
+                        <p>Nam orci neque, tincidunt in vel, vehicula vel lectus. Fusce libero neque, finibus id augue.</p>
+                     </div>
+                  </div>
+                  <div class="box-service">
+                     <div class="box-icon">
+                        <span class="icon uk-icon-cubes"></span>
+                     </div>
+                     <div class="box-content">
+                        <h4>KITCHEN DESIGN</h4>
+                        <p>Nam orci neque, tincidunt in vel, vehicula vel lectus. Fusce libero neque, finibus id augue.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="box-service">
+                     <div class="box-icon">
+                        <span class="icon uk-icon-refresh"></span>
+                     </div>
+                     <div class="box-content">
+                        <h4>REBUILD DESIGN</h4>
+                        <p>Nam orci neque, tincidunt in vel, vehicula vel lectus. Fusce libero neque, finibus id augue.</p>
+                     </div>
+                  </div>
+                  <div class="box-service">
+                     <div class="box-icon">
+                        <span class="icon uk-icon-dropbox"></span>
+                     </div>
+                     <div class="box-content">
+                        <h4>CLOUD SAVE</h4>
+                        <p>Nam orci neque, tincidunt in vel, vehicula vel lectus. Fusce libero neque, finibus id augue.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="box-service">
+                     <div class="box-icon">
+                        <span class="icon uk-icon-cogs"></span>
+                     </div>
+                     <div class="box-content">
+                        <h4>CUSTOM DESIGN</h4>
+                        <p>Nam orci neque, tincidunt in vel, vehicula vel lectus. Fusce libero neque, finibus id augue.</p>
+                     </div>
+                  </div>
+                  <div class="box-service">
+                     <div class="box-icon">
+                        <span class="icon uk-icon-hand-peace-o"></span>
+                     </div>
+                     <div class="box-content">
+                        <h4>WEB DESIGN</h4>
+                        <p>Nam orci neque, tincidunt in vel, vehicula vel lectus. Fusce libero neque, finibus id augue.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK OUR SERVICES -->
+      <!-- BEGIN BLOCK OUR BLOG-->
+      <section class="our-blog sec-padding sec-background">
+         <div class="uk-container uk-container-center">
+            <div class="sec-title">
+               <h3>OUR BLOG</h3>
+               <p>Donec vitae turpis volutpat, eleifend dolor vitae, consectetur erat vestibulum dignissim mollis mauris. </p>
+               <div class="border-img"></div>
+            </div>
+            <div class="uk-grid">
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="box-blog">
+                     <div class="box-img">
+                        <img src="images/blog-2-1.jpg" alt=""/>
+                        <div class="overlay uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+                           <div class="overlay-content">
+                              <span class="uk-icon-link"></span>
+                           </div>
+                        </div>
+                        <a class="uk-position-cover" href="#"></a>
+                     </div>
+                     <div class="box-content">
+                        <div class="date-time">
+                           <div class="date">14</div>
+                           <div class="month">MAR</div>
+                        </div>
+                        <div class="content">
+                           <h3>Useful Design Tips Explained With Beautiful</h3>
+                           <a href="#" class="read-more">Read more <span class="kc-color-primary uk-icon-angle-double-right"></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="box-blog">
+                     <div class="box-img">
+                        <img src="images/blog-2-2.jpg" alt=""/>
+                        <div class="overlay uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+                           <div class="overlay-content">
+                              <span class="uk-icon-link"></span>
+                           </div>
+                        </div>
+                        <a class="uk-position-cover" href="#"></a>
+                     </div>
+                     <div class="box-content">
+                        <div class="date-time">
+                           <div class="date">16</div>
+                           <div class="month">MAR</div>
+                        </div>
+                        <div class="content">
+                           <h3>Best Interior Decorating Decorating Tips and Tricks</h3>
+                           <a href="#" class="read-more">Read more <span class="kc-color-primary uk-icon-angle-double-right"></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="box-blog">
+                     <div class="box-img">
+                        <img src="images/blog-2-3.jpg" alt=""/>
+                        <div class="overlay uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+                           <div class="overlay-content">
+                              <span class="uk-icon-link"></span>
+                           </div>
+                        </div>
+                        <a class="uk-position-cover" href="#"></a>
+                     </div>
+                     <div class="box-content">
+                        <div class="date-time">
+                           <div class="date">18</div>
+                           <div class="month">MAR</div>
+                        </div>
+                        <div class="content">
+                           <h3>Interior Design Tips - Advice from Top Designers</h3>
+                           <a href="#" class="read-more">Read more <span class="kc-color-primary uk-icon-angle-double-right"></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK OUR BLOG -->
+      <!-- BEGIN BLOCK CLIENTS SAY -->
+      <section class="clients-say home-two sec-padding">
+         <div class="uk-container uk-container-center">
+            <div class="sec-title">
+               <h3>what our clients say</h3>
+               <p>Donec vitae turpis volutpat, eleifend dolor vitae, consectetur erat vestibulum dignissim mollis mauris. </p>
+               <div class="border-img"></div>
+            </div>
+            <div class="uk-slidenav-position" data-uk-slider="{autoplay: true}">
+               <div class="uk-slider-container">
+                  <ul class="uk-slider uk-grid uk-grid-width-medium-1-2 uk-grid-width-small-1-1 uk-grid-width-1-1">
+                     <li>
+                        <div class="item">
+                           <div class="quote"><span class="kc-color-primary uk-icon-quote-left"></span></div>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor orci metus, quis facilisis enim commodo in. In finibus neque vitae nunc facilisis faucibus. </p>
+                           <div class="box uk-flex uk-flex-center">
+                              <div class="box-img">
+                                 <img src="images/clients/2-3.jpg" alt=""/>
+                              </div>
+                              <div class="box-content">
+                                 <div class="author">Linsay Lohan</div>
+                                 <div class="city">From United States</div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="item">
+                           <div class="quote"><span class="kc-color-primary uk-icon-quote-left"></span></div>
+                           <p>LoLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor orci metus, quis facilisis enim commodo in. In finibus neque vitae nunc facilisis faucibus. </p>
+                           <div class="box uk-flex uk-flex-center">
+                              <div class="box-img">
+                                 <img src="images/clients/2-2.jpg" alt=""/>
+                              </div>
+                              <div class="box-content">
+                                 <div class="author">John Smith</div>
+                                 <div class="city">From United States</div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="item">
+                           <div class="quote"><span class="kc-color-primary uk-icon-quote-left"></span></div>
+                           <p>LoLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor orci metus, quis facilisis enim commodo in. In finibus neque vitae nunc facilisis faucibus. </p>
+                           <div class="box uk-flex uk-flex-center">
+                              <div class="box-img">
+                                 <img src="images/clients/2-1.jpg" alt=""/>
+                              </div>
+                              <div class="box-content">
+                                 <div class="author">John Smith</div>
+                                 <div class="city">From United States</div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="item">
+                           <div class="quote"><span class="kc-color-primary uk-icon-quote-left"></span></div>
+                           <p>LoLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor orci metus, quis facilisis enim commodo in. In finibus neque vitae nunc facilisis faucibus. </p>
+                           <div class="box uk-flex uk-flex-center">
+                              <div class="box-img">
+                                 <img src="images/clients/2-1.jpg" alt=""/>
+                              </div>
+                              <div class="box-content">
+                                 <div class="author">Linsay Lohan</div>
+                                 <div class="city">From United States</div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+               <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK CLIENTS SAY -->
+      <!-- BEGIN BLOCK CAROUSEL -->
+      <section class="carousel sec-padding sec-background">
+         <div class="uk-container uk-container-center">
+            <div class="uk-slidenav-position" data-uk-slider="{center:true, autoplay: true}">
+               <div class="uk-slider-container">
+                  <ul class="uk-slider uk-grid-width-medium-1-5 uk-grid-width-smal-1-3 uk-grid-width-1-1">
+                     <li><img src="images/carousel/2-1.png" alt=""/></li>
+                     <li><img src="images/carousel/2-2.png" alt=""/></li>
+                     <li><img src="images/carousel/2-3.png" alt=""/></li>
+                     <li><img src="images/carousel/2-4.png" alt=""/></li>
+                     <li><img src="images/carousel/2-5.png" alt=""/></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK CAROUSEL -->
+      <!-- BEGIN BLOCK SUBSCRIBE -->
+      <section class="subscribe home-two sec-padding sec-background-primary">
+         <div class="uk-container uk-container-center">
+            <div class="uk-grid">
+               <div class="uk-width-medium-4-10 uk-width-small-1-2 uk-width-1-1">
+                  <h3>SUBSCRIBE US</h3>
+               </div>
+               <div class="uk-width-medium-6-10 uk-width-small-1-2 uk-width-1-1">
+                  <form class="uk-form" action="#" method="POST">
+                     <div class="uk-form-icon uk-form-icon-flip">
+                        <a href="#"><i class="icon uk-icon-paper-plane"></i></a>
+                        <input class="uk-width-1-1" type="text" placeholder="Enter your email...">
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END BEGIN BLOCK SUBSCRIBE -->
+      <!-- END BEGIN CONTAINER -->
+      <!-- BEGIN FOOTER -->
+      <footer class="footer sec-padding">
+         <div class="uk-container uk-container-center">
+            <div class="uk-grid">
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="footer-widget notitle about-widget">
+                     <div class="title">
+                        <h3>ABOUT US</h3>
+                     </div>
+                     <img class="logo-footer" src="images/logo.png" alt="" />
+                     <p>Lorem ipsum dolor sit amet, consectetur adipis elit. Nunc at eros sollicitudin, putate lorem vel, vivera diam. Aliquam ac vehicula massa.</p>
+                     <ul class="social-footer">
+                        <li><a href="#" target="_blank"><span class="uk-icon-facebook"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="uk-icon-vimeo"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="uk-icon-twitter"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="uk-icon-instagram"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="uk-icon-google"></span></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="uk-grid">
+                     <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-width-1-1">
+                        <div class="footer-widget post-link-widget">
+                           <div class="title">
+                              <h3>INFOMATION</h3>
+                           </div>
+                           <ul>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Contact Us</a></li>
+                              <li><a href="#">Latest News</a></li>
+                              <li><a href="#">Customs Services</a></li>
+                              <li><a href="#">Support</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="uk-width-medium-1-2 uk-width-small-1-1 uk-width-1-1">
+                        <div class="footer-widget post-link-widget">
+                           <div class="title">
+                              <h3>LINKS</h3>
+                           </div>
+                           <ul>
+                              <li><a href="#">Latest News</a></li>
+                              <li><a href="#">Products</a></li>
+                              <li><a href="#">Best Design</a></li>
+                              <li><a href="#">Customs Services</a></li>
+                              <li><a href="#">Gallery</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1">
+                  <div class="footer-widget post-img-widget">
+                     <div class="title">
+                        <h3>FROM BLOG</h3>
+                     </div>
+                     <ul>
+                        <li>
+                           <div class="box-img">
+                              <a href="#"><img src="images/footer-blog-2-1.jpg" alt=""/></a>
+                           </div>
+                           <div class="box-content">
+                              <a href="#">Effective Web Design Principles You Should Know</a>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="box-img">
+                              <a href="#"><img src="images/footer-blog-2-2.jpg" alt=""/></a>
+                           </div>
+                           <div class="box-content">
+                              <a href="#">20 Steps to The Perfect Website <br/>Layout</a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="footer-bottom">
+         <div class="uk-container uk-container-center">
+            <div class="uk-grid uk-grid-small">
+               <div class="uk-width-medium-4-10 uk-width-small-1-1 uk-width-1-1">
+                  <div class="left">
+                     <p>Copyright &copy; 2016 Kitchen Design. All Right Reserved</p>
+                  </div>
+               </div>
+               <div class="uk-width-medium-6-10 uk-width-small-1-1 uk-width-1-1 uk-hidden-small">
+                  <div class="right">
+                     <ul>
+                        <li><a href="index-2.html">HOME</a></li>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="product-grid.html">PRODUCT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="kc_backtop" class="kc-bt-show" data-uk-smooth-scroll><i class="uk-icon-arrow-up"></i></div>
+      <!--END BEGIN FOOTER -->
+      <!-- BEGIN CORE PLUGINS -->
+      <script src="plugins/jquery/jquery-1.12.4.min.js" type="text/javascript"></script>
+      <script src="plugins/uikit/js/uikit.min.js" type="text/javascript"></script>
+      <!-- END CORE PLUGINS -->
+      <!-- END BEGIN COMPONENT UIKIT-->
+      <script src="plugins/uikit/js/components/grid.min.js" type="text/javascript"></script>
+      <script src="plugins/uikit/js/components/slider.min.js" type="text/javascript"></script>
+      <script src="plugins/uikit/js/components/slideshow.min.js" type="text/javascript"></script>
+      <!-- END BEGIN COMPONENT UIKIT-->
+      <!-- BEGIN PAGE LEVEL PLUGINS -->
+      <script src="plugins/revolution/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+      <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+      <!-- END BEGIN PAGE LEVEL PLUGINS -->
+      <!-- BEGIN THEME LAYOUT SCRIPTS -->
+      <script src="js/main.js" type="text/javascript"></script>
+      <!-- END BEGIN THEME LAYOUT SCRIPTS -->
+   </body>
+
+<!-- Mirrored from kitchen.qtcmedia.com/html/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Jan 2023 10:07:03 GMT -->
+</html>
